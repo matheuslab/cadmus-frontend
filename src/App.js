@@ -1,9 +1,9 @@
 import React from 'react';
 
-function App() {
-  return (
-    <div>bla</div>
-  );
-}
+import Routes from './routes';
+
+export const App = () => (
+  <Routes />
+);
 
 export default App;
