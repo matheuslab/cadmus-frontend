@@ -43,4 +43,17 @@ export default defineMessages({
     id: `${scope}.calc`,
     defaultMessage: 'Calcular',
   },
+  dayOfFirstAffectedAirport: {
+    id: `${scope}.dayOfFirstAffectedAirport`,
+    defaultMessage: 'Dia em que o primeiro aeroporto foi afetado: {firstAffectedDay}',
+  },
+  daysUntilAllAffectedAirports: {
+    id: `${scope}.daysUntilAllAffectedAirports`,
+    defaultMessage: 'Dia em que as nuvens atingiram todos '
+      + 'os aeroportos: {daysUntilAllAirportsAffected}',
+  },
+  dayOne: {
+    id: `${scope}.dayOne`,
+    defaultMessage: 'Dia 1',
+  },
 });
