@@ -2,7 +2,7 @@
 import api from '../../services/api';
 
 export const handleOnChange = (setState) => (event) => {
-  setState(event.target.value);
+  setState(Number(event.target.value));
 };
 
 export const handleOnSubmit = (data) => async (event) => {
