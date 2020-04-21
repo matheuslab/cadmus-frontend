@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 
 import messages from './messages';
-import { handleOnChange } from './handlers';
+import { handleOnChange, handleOnSubmit } from './handlers';
 
 export const Challenge = ({ intl }) => {
   const [cloud, setCloud] = useState(4);
@@ -68,7 +68,10 @@ export const Challenge = ({ intl }) => {
       />
 
 
-      <Button onClick={handleOnChange(setCloud)}>
+      <Button onClick={handleOnSubmit({
+        cloud, airport, height, width,
+      })}
+      >
         <Typography>
           <FormattedMessage {...messages.calc} />
         </Typography>
