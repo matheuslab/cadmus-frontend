@@ -1,7 +1,7 @@
 # Cadmus - Frontend
 
 <p align="center">
-  <img src="https://steamcdn-a.akamaihd.net/steam/apps/206440/capsule_616x353.jpg?t=1530767611" alt="cadmus-frontend" align="center" />
+  <img src="https://cadmus.com.br/wp-content/uploads/2019/12/opengraph.jpg" alt="cadmus-frontend" align="center" />
 </p>
 
 ### Installing
