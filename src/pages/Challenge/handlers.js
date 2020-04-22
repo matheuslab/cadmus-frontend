@@ -10,8 +10,6 @@ export const handleOnSubmit = (data) => async (event) => {
 
   try {
     await api.post('challenge', data);
-
-    alert('Dados enviados com sucesso');
   } catch (err) {
     alert('Erro no envio dos dados, tente novamente.');
   }
